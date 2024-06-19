@@ -3,7 +3,9 @@ import { login, logout, signup } from '../controllers/auth.controller.js'
 
 const router = express.Router()
 
-//Signup Rout
+
+
+//New sign up
 router.post('/signup', signup)
 
 //Login Rout
